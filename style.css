@@ -1,0 +1,130 @@
+body {
+    background-color: gainsboro
+}
+
+p {
+    border: 2px solid red;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px red;
+    font-style: italic;
+    width: 200px;
+    height: 50px;
+    background: rgba(109, 150, 32, 0.822);
+    opacity: 90%;
+    position: relative;
+    animation: mymove 1s infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes mymove {
+    from {
+        left: 550px;
+    }
+    to {
+        right: 550px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    border: 1px solid red;
+    background-color: gainsboro;
+}
+
+li a {
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+li a {
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+}
+
+div.a {
+    text-indent: 50px;
+}
+
+
+/* #Container1 {
+display: flex;
+background-color: rgba(109, 150, 32, 0.822);
+border: 1px solid purple;
+padding: 20px;
+justify-content: center;
+margin: 5px;
+}
+#Container1 {
+  display: flex 2;
+margin-left: 300px;
+margin-top: -125px;
+height: 80px;
+width: 75%;
+
+
+
+}
+
+.inner {
+  display: inline;
+  width: 400px;
+  height: 120px;
+  border: 1px solid rgb(11, 17, 11);
+  margin: 5px;
+}
+
+.inner {
+background-color: rgb(64, 71, 133);
+padding: 10px;
+height: 60px;
+margin-top: 30px;
+}
+.inner a {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+padding: 5px;
+text-decoration: none;
+color: white;
+
+}
+Flex2#Toon {
+width: 25px;
+margin-left: 5px;
+}
+
+ img#Lg2 {
+  z-index: 0;
+  margin-top: -675px;
+  align-items:  center;
+  margin-left: 450px;
+}
+
+.responsive {
+width: 100%;
+max-width: 400px;
+height: auto;
+
+
+} */

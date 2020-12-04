@@ -3,34 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="contact-us.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css" integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w==" crossorigin="anonymous"
+    />
+
     <title> Contact Us </title>
 </head>
 
 <body>
 
-    <h3>Contact Us</h3>
+    <h3 class="flex justify-center text-4xl text-red-700 font-bold uppercase px-16 py-16 pb-8">Contact Us
 
-    <div class="container">
+    </h3>
+    <h4 div class="flex justify-center rounded shadow border-2 border-gray-400 bg-gray-100 px-10 py-10 pb-8 ">
         <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <div class="container flex-auto...">
+                <label for="name" class="font-bold ">Name</label>
+            </div>
+            <input class="rounded border-2 border-red-700 px-28" type="text" id="name" name="name" placeholder="Enter your name..">
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <div class="container flex-auto...">
+                <label for="email" class="font-bold">Email</label> </div>
+            <input class="rounded border-2 border-red-700 px-28" type="text" id="email" name="email" placeholder="Enter your email..">
+            </div>
+            <div class="container flex-auto...">
+                <label for="subject" class="font-bold">Subject</label> </div>
+            <input class="rounded border-2 border-red-700 px-28" type="text" id="subject" name="subject" placeholder="Subject..">
 
-            <label for="email">Email Address</label>
-            <input type="text" id="email" name="emailaddress" placeholder="Your email address..">
+            <div class="container flex-auto...">
+                <label for="content" class="font-bold">Content</label> </div>
 
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
+            <textarea id="content" class=" rounded border-2 border-red-700 px-28" name="content" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+            <button class="border-2 border-red-700 bg-gray-200 hover:bg-red-700 ...">
+                Submit
+              </button>
         </form>
-    </div>
-
+    </h4>
 </body>
 
 </html>

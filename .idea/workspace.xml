@@ -99,7 +99,7 @@
       <workItem from="1607014187757" duration="3663000" />
       <workItem from="1607022426942" duration="787000" />
       <workItem from="1607023288796" duration="488000" />
-      <workItem from="1607023881027" duration="44355000" />
+      <workItem from="1607023881027" duration="50214000" />
     </task>
     <task id="LOCAL-00001" summary="more changes">
       <created>1607012835190</created>
@@ -122,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607071289532</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes made to index.html">
+      <created>1607096267219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607096267219</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rearranged and added more features">
+      <created>1607096426364</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607096426364</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +144,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="more changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="more changes" />
+    <MESSAGE value="Changes made to index.html" />
+    <MESSAGE value="Rearranged and added more features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearranged and added more features" />
   </component>
 </project>

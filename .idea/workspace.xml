@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06103af6-65a2-4348-bdb1-f93077373e0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/tailwind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tailwind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607279985711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="installed tailwindcss">
+      <created>1607418235493</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607418235493</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +169,7 @@
     <MESSAGE value="Changes made to index.html" />
     <MESSAGE value="Rearranged and added more features" />
     <MESSAGE value="edited the merged file" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited the merged file" />
+    <MESSAGE value="installed tailwindcss" />
+    <option name="LAST_COMMIT_MESSAGE" value="installed tailwindcss" />
   </component>
 </project>

@@ -4,5 +4,8 @@
   },
   "scripts": {
     "dev": "live-server"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.1"
   }
 }

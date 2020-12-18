@@ -22,6 +22,12 @@ if (regname.value === '') {
        emailErr.className = 'bg-gray-400 text-white'
    } else {
        console.log ('sending to server')
-   } 
+   }
+   
+   if (subject.value ==='') {
+       subjectErr.className = 'bg-gray-400 text-white'
+   } else {
+       console.log ('sending to server')
+   }
 
 })

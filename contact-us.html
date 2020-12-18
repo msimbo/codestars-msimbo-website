@@ -58,20 +58,27 @@
         <form action="/action_page.php">
             <label for="regname">Name</label>
             <input type="text" id="regname" name="regname" placeholder="Please enter your name">
+            <small class="hidden bg-gray-600 text-white"> Please enter your name</small>
+        </form>
+
 
             <label for="email">Email Address</label>
             <input type="text" id="email" name="emailaddress" placeholder="Please enter your email address">
+            <small class="hidden bg-gray-600 text-white"> Please enter your email address</small>
 
-            <label for="email">Subject</label>
+            <label for="subject">Subject</label>
             <input type="text" id="subject" name="subject" placeholder="Please enter the subject of interest">
+            <small class="hidden bg-gray-600 text-white"> Please enter the subject of interest</small>
 
-            <label for="subject">Comment</label>
+            <label for="comment">Comment</label>
             <textarea id="comment" name="comment" placeholder="Please tell us something about yourself." style="height:200px"></textarea>
+            <small class="hidden bg-gray-600 text-white"> Please tell us something about yourself</small>
 
             <input type="submit" value="Submit">
         </form>
     </div>
 
+    <script>
 </body>
 
 </html>
